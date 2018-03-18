@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>What I Learned About Philadelphia</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>What I Learned About Philadelphia</h1>
+    <h2>"What if Philadelphians felt less of a need to play the lotto?"</h2>
+    <div>
+      <p>I've been living in Philadelphia for about a year and a half, and sometimes I
+      feel the urge to walk into a 7-11 or a Wawa to purchase a lotto ticket. For whatever reason,
+      I think I've felt that urge more often here than most other places I've lived, even
+      though I know that a lotto ticket is a bad buy. (If it wasn't, there wouldn't
+      be a lotto!)</p>
+      <p>What if I could give Philadelphians a way to experience playing the lotto, without
+      wasting their money, in what is one of America's poorest large cities? Enter this
+      chapter of our website, "What I Learned About Philadelphia." Below is a lotto
+      simulator based loosely on the Pennsylvania Lottery's Match 6 game. The rules
+      aren't exactly the same, but they are close.</p>
+      <p>Give it a try: click a button, and
+      simulate playing a real life-similar lotto game as if you had millions of dollars
+      to spend on tickets.</p>
+    </p>Unlike the real lottery, when you're done playing this simulator, you'll <em>still</em> have your money
+      safely tucked away in your pocket.</p>
+    </div>
+  <hr>
+    <div class="top">
+  		<h2 class="top">Lotto Simulator</h2>
+  		<!-- <h2>Based loosely on <a href="https://www.palottery.state.pa.us/Games/Match-6/Prizes-Chances.aspx" target="_blank">Match 6 by the Pennsylvania Lottery</a></h2> -->
+  	</div>
+  	<div class="top">
+  		<ul>
+  			<li>Each ticket costs $2.</li>
+  			<li>6 numbers are chosen between 1 and 49.</li>
+  			<li>Matching 0, 1, or 2 numbers wins $0.</li>
+  			<li>Matching 3 numbers wins $2.</li>
+  			<li>Matching 4 numbers wins $20.</li>
+  			<li>Matching 5 numbers wins $1,000.</li>
+  			<li>Matching 6 numbers wins $2,000,000.</li>
+  		</ul>
+  	</div>
+  	<div class="top">
+  		<button id="play1" name="play1" type="submit">Spend $2 for 1 ticket</button>
+  		<button id="play10" name="play10" type="submit">Spend $20 for 10 tickets</button>
+  		<button id="play100" name="play100" type="submit">Spend $200 for 100 tickets</button>
+  		<button id="play1000" name="play1000" type="submit">Spend $2,000 for 1,000 tickets</button>
+  		<p></p>
+  		<button id="play1000000" name="play1000000" type="submit">Spend $2,000,000 for 1,000,000 tickets</button>
+  		<p><button id="startOver" name="startOver" type="submit">Start Over</button></p>
+  		<!-- your favorite animal's image goes here -->
+  		<!-- <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Sirocco_full_length_portrait.jpg" alt="Kakapo"> -->
+  	</div>
+  	<div class="bottom">
+  		<h3>Your Previous Play</h3>
+  		<div class="box" id="thisPlay">
+  			<p><em>Click a button above to play.</em></p>
+  		</div>
+  		<h3>Your Totals</h3>
+  		<div class="box" id="allPlays">
+  			<p><em>Click a button above to play.</em></p>
+  		</div>
+  	</div>
+  <hr>
+    <h2><a href="../index.html">Back to Home</a></h2>
+
+    <!-- <div>
+      <p>© 2018 all rights reserved.</p>
+    </div> -->
+
+    <script src="designs.js"></script>
+</body>
+</html>
