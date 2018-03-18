@@ -1,6 +1,9 @@
 /* Add home page CSS here */
 
 body {
+    /* width: 50%; */
+    margin-left: 40px;
+    margin-right: 40px;
     text-align: center;
     background: lightblue;
 }
@@ -56,4 +59,21 @@ li {
     margin: 0;
     list-style-type: none;
     /* font-size: 20px; */
+}
+
+/* https://www.w3schools.com/csS/css3_buttons.asp */
+button {
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px 6px;
+  -webkit-transition-duration: 0.01s; /* Safari */
+  transition-duration: 0.01s;
+  cursor:pointer;
+  background-color: white;
+  color: black;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
